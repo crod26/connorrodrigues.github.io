@@ -1,0 +1,30 @@
+.backgroundWrap 
+{
+	position: absolute;
+    top: 9%;
+	left: -5vw;
+    transform: translateY(-10%);
+    z-index: -1000;
+    overflow:;
+	right: 28vw;
+	opacity:.6;
+	transform: scale(.6);
+}
+			
+#videoBg
+{
+    position: absolute;
+    top: 0%;
+    min-height: 12vw;
+    min-width: 12vw;
+}
+
+
+@media screen and (max-width: 900px) 
+{
+    .backgroundWrap 
+	{
+        transform: scale(0);
+    }
+}
+
